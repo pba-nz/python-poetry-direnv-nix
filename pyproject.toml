@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-poetry-direnv-nix"
+version = "0.1.0"
+description = "A demo Python project with the Poetry Package Manager, Nix System Package Manager and Direnv Environment Manager."
+authors = ["Liam Diprose <liam.diprose@pbanz.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+black = "^19.10b0"
+python-language-server = {extras = ["all"], version = "^0.31.10"}
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
